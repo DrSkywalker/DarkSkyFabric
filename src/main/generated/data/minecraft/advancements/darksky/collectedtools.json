@@ -1,0 +1,82 @@
+{
+  "parent": "minecraft:darksky/collectedcharm",
+  "criteria": {
+    "dark_tools1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darksword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dark_tools2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkshovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dark_tools3": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkpickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dark_tools4": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkhoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dark_tools5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Collected And Crafted All Dark Sky Tools",
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "darkskyfabric:darkpickaxe"
+    },
+    "title": "I'M Untouchable"
+  },
+  "requirements": [
+    [
+      "dark_tools5"
+    ],
+    [
+      "dark_tools4"
+    ],
+    [
+      "dark_tools3"
+    ],
+    [
+      "dark_tools2"
+    ],
+    [
+      "dark_tools1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:darksky/collectedtools",
+  "criteria": {
+    "dark_end_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "More Content Coming Soon!",
+    "icon": {
+      "count": 1,
+      "id": "darkskyfabric:darksword"
+    },
+    "title": "IS THAT ALL?"
+  },
+  "requirements": [
+    [
+      "dark_end_adv"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

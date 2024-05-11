@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "lee.darkskyfabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerAdvancementTrackerAccessor",
+    "PlayerAdvancementTrackerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+
+  ]
+}

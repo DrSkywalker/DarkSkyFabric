@@ -1,0 +1,6 @@
+// 1.20.6	2024-05-09T16:56:08.1944311	The Dark Sky/Tags for minecraft:block
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\blocks\needs_tool_level_4.json
+d59e96533395ca673c33104a5a539426d44c9257 data\minecraft\tags\blocks\needs_diamond_tool.json
+d59e96533395ca673c33104a5a539426d44c9257 data\minecraft\tags\blocks\mineable\pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_stone_tool.json

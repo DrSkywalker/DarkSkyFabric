@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_darkblock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkblock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:darkcharm"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_darkblock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:darkcharm"
+    ]
+  }
+}

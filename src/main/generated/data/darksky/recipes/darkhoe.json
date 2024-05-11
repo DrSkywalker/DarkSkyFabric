@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "darkskyfabric:darkcharm"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DD ",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "darkskyfabric:darkhoe"
+  }
+}

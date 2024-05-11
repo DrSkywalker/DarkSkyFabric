@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:darksky/root",
+  "criteria": {
+    "dark_lost": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "The Darkness Consumes All.",
+    "icon": {
+      "count": 1,
+      "id": "darkskyfabric:darkblock"
+    },
+    "title": "Where Am I?"
+  },
+  "requirements": [
+    [
+      "dark_lost"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

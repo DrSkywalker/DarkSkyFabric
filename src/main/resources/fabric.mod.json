@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "darksky",
+	"version": "${version}",
+	"name": "The Dark Sky",
+	"description": "The Dark Sky is a Challenging Mod That Rewards You With Overpowered Tools on Your Journey Through The Darkness!",
+	"authors": [
+		"CodingSkywalker"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/thedarksky",
+		"sources": "https://github.com/DrSkywalker/TheDarkSky",
+		"issues" : "https://github.com/DrSkywalker/TheDarkSky/issues",
+		"wiki": "https://github.com/DrSkywalker/TheDarkSky/wiki/Home"
+	},
+	"license": "MIT",
+	"icon": "Icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lee.darkskyfabric.DarkSkyFabric"
+		],
+		"client": [
+			"lee.darkskyfabric.DarkSkyFabricClient"
+		],
+		"modmenu": [
+			"lee.darkskyfabric.integrations.DarkSkyMenu"
+		],
+		"fabric-datagen": [
+			"lee.darkskyfabric.DarkSkyFabricDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20.5 <=1.20.6",
+		"java": ">=21",
+		"fabric-api": ">=0.97.8+1.20.6"
+	},
+	"suggests": {
+		"modmenu": "10.0.0-beta.1"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.wiki": "https://github.com/DrSkywalker/TheDarkSky/wiki/Home"
+			},
+			"update_checker": true
+		}
+	}
+}

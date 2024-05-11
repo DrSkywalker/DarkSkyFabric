@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:darksky/slept",
+  "criteria": {
+    "dark_collect": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkskyfabric:darkcharm"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Found Your First Dark Charm!",
+    "icon": {
+      "count": 1,
+      "id": "darkskyfabric:darkore"
+    },
+    "title": "First Dark Charm!"
+  },
+  "requirements": [
+    [
+      "dark_collect"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

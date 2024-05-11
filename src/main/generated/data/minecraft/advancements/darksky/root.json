@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "darksky_table": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "The Journey Through The Darkness Begins",
+    "icon": {
+      "count": 1,
+      "id": "darkskyfabric:darkcharm"
+    },
+    "title": "The Dark Sky"
+  },
+  "requirements": [
+    [
+      "darksky_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

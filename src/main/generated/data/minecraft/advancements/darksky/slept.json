@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:darksky/whereami",
+  "criteria": {
+    "dark_bed": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "display": {
+    "description": "Try Sleeping Through The Endless Night!",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:torch"
+    },
+    "title": "Nice Try"
+  },
+  "requirements": [
+    [
+      "dark_bed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
